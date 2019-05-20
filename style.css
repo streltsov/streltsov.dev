@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background-color: #0c0c0d;
+  color: white;
+  overflow: hidden;
+}
+
+.container {
+  background-color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 700px repeat(10, 1fr);
+  grid-template-rows: repeat(14, 50px) repeat(10, 1fr);
+
+  position: absolute;
+  top: -380px;
+  left: 16px;
+  transform: rotate(-34deg);
+  height: 1768px;
+  width: 1768px;
+}
+.cell {
+  transition: border-width 0.25s linear;
+  border: 1px solid #4a4a4f;
+}
+.cell:hover {
+  border: 10px solid #4a4a4f !important;
+}
+
+.main {
+  grid-area: 1/1/15/2;
+  border-right-width: 0px;
+}
+.main:hover {
+  border: 1px solid #4a4a4f !important;
+  border-right-width: 0px !important;
+}
+.resume {
+  grid-area: 1/2/10/6;
+  border-bottom-width: 0px;
+}
+.portfolio {
+  grid-area: 10/2/16/6;
+  border-bottom-width: 0px;
+}
+.blog {
+  grid-area: 16/2/19/6;
+}
+.contacts {
+  grid-area: 15/6/18/11;
+  border-left-width: 0px;
+}
