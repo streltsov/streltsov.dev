@@ -1,7 +1,11 @@
 .SkillsBody {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+}
+
+.skills-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 20px;
-
-  flex: 1;
+  gap: 12px;
 }

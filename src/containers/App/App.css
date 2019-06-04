@@ -1,3 +1,16 @@
 .App {
+  font-family: Fira Sans, sans-serif;
   display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.heading {
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 700px) {
+  .App {
+    flex-direction: row;
+  }
 }

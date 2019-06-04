@@ -13,14 +13,17 @@ import './SkillsBody.css';
 const SkillsBody = () => {
   return (
     <div className="SkillsBody">
-      <SkillCard image={HTML5Logo} caption="HTML5" />
-      <SkillCard image={CSS3Logo} caption="CSS3" />
-      <SkillCard image={JavaScriptLogo} caption="JavaScript" />
-      <SkillCard image={ReactLogo} caption="React" />
-      <SkillCard image={ReduxLogo} caption="Redux" />
-      <SkillCard image={WebpackLogo} caption="Webpack" />
-      <SkillCard image={GitLogo} caption="Git" />
-      <SkillCard image={GitHubLogo} caption="GitHub" />
+      <h2 className="heading">Я использую:</h2>
+      <div className="skills-cards">
+        <SkillCard image={HTML5Logo} caption="HTML5" />
+        <SkillCard image={CSS3Logo} caption="CSS3" />
+        <SkillCard image={JavaScriptLogo} caption="JavaScript" />
+        <SkillCard image={ReactLogo} caption="React" />
+        <SkillCard image={ReduxLogo} caption="Redux" />
+        <SkillCard image={WebpackLogo} caption="Webpack" />
+        <SkillCard image={GitLogo} caption="Git" />
+        <SkillCard image={GitHubLogo} caption="GitHub" />
+      </div>
     </div>
   );
 };
