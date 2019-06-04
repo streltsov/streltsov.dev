@@ -1,0 +1,31 @@
+.greeting {
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 22px;
+  color: #4a4a4f;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 32px;
+  margin-top: 14px;
+  margin-bottom: 0px;
+  color: #383838;
+}
+
+.occupation {
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  color: #4a4a4f;
+}
+
+.email {
+  display: inline-block;
+  font-size: 14px;
+  text-decoration: none;
+  color: #4a4a4f;
+  margin-bottom: 12px;
+}

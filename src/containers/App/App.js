@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-import SkillsBody from '../SkillsBody/SkillsBody';
+import VisitingCard from '../../components/VisitingCard/VisitingCard';
 import ProjectsBody from '../ProjectsBody/ProjectsBody';
+import SkillsBody from '../SkillsBody/SkillsBody';
 
 const App = () => {
   return (
     <div className="App">
-      <ProjectsBody />
+      <VisitingCard />
       <SkillsBody />
+      <ProjectsBody />
     </div>
   );
 };
