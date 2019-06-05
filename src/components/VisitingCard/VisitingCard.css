@@ -23,9 +23,18 @@
 }
 
 .email {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   font-size: 14px;
   text-decoration: none;
   color: #4a4a4f;
   margin-bottom: 12px;
+}
+
+.email img {
+  padding-right: 4px;
+}
+
+.email a {
+  margin: 0;
 }
