@@ -1,9 +1,3 @@
-.ProjectsBody {
-  display: flex;
-  flex-direction: column;
-  flex: 50%;
-}
-
 .projects-cards {
   display: flex;
   flex-direction: column;

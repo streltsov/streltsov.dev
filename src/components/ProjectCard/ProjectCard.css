@@ -11,6 +11,11 @@
   border: 5px solid rgba(0, 0, 0, 0);
   box-shadow: 0 1px 4px rgba(12, 12, 13, 0.1);
   cursor: pointer;
+  box-sizing: border-box;
+}
+
+.ProjectCard:hover {
+  border: solid 5px #d7d7db;
 }
 
 .description {

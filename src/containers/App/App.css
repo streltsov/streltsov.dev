@@ -1,6 +1,7 @@
 .App {
   display: grid;
   grid-template-columns: 1fr;
+
   font-family: Fira Sans, sans-serif;
   color: #333;
   padding: 12px;
